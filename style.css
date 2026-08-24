@@ -35,13 +35,13 @@ header {
 .logo img {
     height: 40px; 
 }
-body {
-    /* El logo de fondo con un velo blanco clarito para que se vea suave */
+/* Quitamos el fondo del body general para que esté limpio por defecto en los artículos */
+
+/* Creamos una clase exclusiva solo para la página de inicio */
+body.home-background {
     background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('logo.png');
-    
-    /* Para que el logo se vea centrado y no se repita muchas veces */
-    background-size: contain;      /* 'contain' hace que el logo se vea completo */
-    background-position: center;   /* Lo centra en toda la pantalla */
-    background-repeat: no-repeat;  /* Evita que el logo se repita como mosaico */
-    background-attachment: fixed;  /* Fijo para que no se mueva al hacer scroll */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
