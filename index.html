@@ -6,7 +6,6 @@
     <title>Blog & Bitácora | Ing. Nerbelis Valdeblanques</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
     <!-- Cabecera y Navegación del Blog -->
@@ -14,7 +13,7 @@
         <div class="logo">
             <a href="https://nercovalch.uk"><img src="logo.png" alt="Logo NVR" style="height: 40px;"></a>
         </div>
-        <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+        <button class="menu-toggle" aria-label="Abrir menú">&#8801;</button>
         <nav class="nav-menu">
             <ul>
                 <li><a href="https://nercovalch.uk">Inicio Web</a></li>
@@ -26,7 +25,7 @@
     </header>
 
     <!-- Sección Principal / Hero del Blog -->
-   <section id="inicio" class="hero" style="text-align: center; padding: 60px 20px;"></section>
+    <section class="hero" style="text-align: center; padding: 60px 20px;">
         <div class="hero-content">
             <h1>Bitácora de Ingeniería y Desarrollo</h1>
             <p>Reflexiones, guías técnicas y el proceso detrás de transformar cálculos complejos en software ágil.</p>
@@ -34,66 +33,107 @@
     </section>
 
     <!-- Sección de Artículos del Blog -->
-    <section id="articulos" class="container" style="padding: 40px 20px;"></section>
+    <section id="articulos" class="container" style="padding: 40px 20px;">
         <h2>Últimas Publicaciones</h2>
+        
         <div class="proyectos-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 20px;">
             
-           <!-- Artículo 1: Ingeniería Civil -->
-<div class="card" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 8px;">
-    <span style="background: #4da3ff; color: #000; font-size: 0.75em; font-weight: bold; padding: 4px 8px; border-radius: 4px; text-transform: uppercase;">Ingeniería Civil</span>
-    <h3 style="margin-top: 10px; font-size: 1.1em;">De la Norma al Concreto: Automatización de Cálculos Estructurales</h3>
-    <p style="font-size: 0.9em; opacity: 0.8;">Cómo traducir las normativas y fórmulas complejas de la construcción a herramientas digitales interactivas que garantizan precisión y agilidad en obra.</p>
-    <br>
-    <a href="articulo-ingenieria-civil.html" style="color: #4da3ff; text-decoration: none; font-weight: bold;">Leer artículo completo &rarr;</a>
-</div>
+            <!-- Artículo 1: Ingeniería Civil -->
+            <div class="project-card" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 8px;">
+                <span style="background: #4da3ff; color: #000; font-size: 0.75em; font-weight: bold; padding: 4px 8px; border-radius: 4px; text-transform: uppercase;">Ingeniería Civil</span>
+                <h3 style="margin-top: 10px; font-size: 1.1em;">De la Norma al Concreto: Automatización de Cálculos Estructurales</h3>
+                <p style="font-size: 0.9em; opacity: 0.8;">Cómo traducir las normativas y fórmulas complejas de la construcción a herramientas digitales interactivas que garantizan precisión y agilidad.</p>
+                <a href="articulo-ingenieria-civil.html" style="color: #4da3ff; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px;">Leer artículo completo &rarr;</a>
+            </div>
 
-<!-- Artículo 2: Desarrollo Web -->
-<div class="card" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 8px;">
-    <span style="background: #4da3ff; color: #000; font-size: 0.75em; font-weight: bold; padding: 4px 8px; border-radius: 4px; text-transform: uppercase;">Desarrollo Web</span>
-    <h3 style="margin-top: 10px; font-size: 1.1em;">Arquitectura Modular: Creando Aplicaciones Web a la Medida</h3>
-    <p style="font-size: 0.9em; opacity: 0.8;">El valor de diseñar interfaces limpias, rápidas y escalables desde cero, adaptadas estrictamente a las necesidades operativas de cada profesional.</p>
-    <br>
-    <a href="articulo-desarrollo-web.html" style="color: #4da3ff; text-decoration: none; font-weight: bold;">Leer artículo completo &rarr;</a>
-</div>
+            <!-- Artículo 2: Desarrollo Web -->
+            <div class="project-card" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 8px;">
+                <span style="background: #4da3ff; color: #000; font-size: 0.75em; font-weight: bold; padding: 4px 8px; border-radius: 4px; text-transform: uppercase;">Desarrollo Web</span>
+                <h3 style="margin-top: 10px; font-size: 1.1em;">Arquitectura Modular: Creando Aplicaciones Web a la Medida</h3>
+                <p style="font-size: 0.9em; opacity: 0.8;">El valor de diseñar interfaces limpias, rápidas y escalables desde cero, adaptadas estrictamente a las necesidades operativas de cada profesional.</p>
+                <a href="articulo-desarrollo-web.html" style="color: #4da3ff; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px;">Leer artículo completo &rarr;</a>
+            </div>
 
-<!-- Artículo 3: Ingeniería Informática -->
-<div class="card" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 8px;">
-    <span style="background: #4da3ff; color: #000; font-size: 0.75em; font-weight: bold; padding: 4px 8px; border-radius: 4px; text-transform: uppercase;">Ingeniería Informática</span>
-    <h3 style="margin-top: 10px; font-size: 1.1em;">La Convergencia Perfecta: Sistemas y Lógica Aplicada</h3>
-    <p style="font-size: 0.9em; opacity: 0.8;">Análisis de cómo la resolución estructurada de problemas lógicos potencia la creación de software robusto para la automatización de procesos.</p>
-    <br>
-    <a href="articulo-informatica.html" style="color: #4da3ff; text-decoration: none; font-weight: bold;">Leer artículo completo &rarr;</a>
-</div> 
-<!-- Artículo 4: Ingeniería y Software -->
-<div class="card" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 8px;">
-    <span style="background: #4da3ff; color: #000; font-size: 0.75em; font-weight: bold; padding: 4px 8px; border-radius: 4px; text-transform: uppercase;">Ingeniería y Software</span>
-    <h3 style="margin-top: 10px; font-size: 1.1em;">Del Cálculo Manual a la Aplicación Web Ágil</h3>
-    <p style="font-size: 0.9em; opacity: 0.8;">Cómo transformar fórmulas normativas y memorias de cálculo tradicionales en herramientas digitales interactivas que agilizan el trabajo técnico diario.</p>
-    <a href="articulo-calculo-agil.html" style="color: #4da3ff; text-decoration: none; font-weight: bold;">Leer artículo completo &rarr;</a>
-</div>
+            <!-- Artículo 3: Ingeniería Informática -->
+            <div class="project-card" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 8px;">
+                <span style="background: #4da3ff; color: #000; font-size: 0.75em; font-weight: bold; padding: 4px 8px; border-radius: 4px; text-transform: uppercase;">Ingeniería Informática</span>
+                <h3 style="margin-top: 10px; font-size: 1.1em;">La Convergencia Perfecta: Sistemas y Lógica Aplicada</h3>
+                <p style="font-size: 0.9em; opacity: 0.8;">Análisis de cómo la resolución estructurada de problemas lógicos potencia la creación de software robusto para la automatización de procesos.</p>
+                <a href="articulo-informatica.html" style="color: #4da3ff; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px;">Leer artículo completo &rarr;</a>
+            </div>
+
+            <!-- Artículo 4: Ingeniería y Software -->
+            <div class="project-card" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 8px;">
+                <span style="background: #4da3ff; color: #000; font-size: 0.75em; font-weight: bold; padding: 4px 8px; border-radius: 4px; text-transform: uppercase;">Ingeniería y Software</span>
+                <h3 style="margin-top: 10px; font-size: 1.1em;">Del Cálculo Manual a la Aplicación Web Ágil</h3>
+                <p style="font-size: 0.9em; opacity: 0.8;">Cómo transformar fórmulas y memorias de cálculo tradicionales en herramientas digitales interactivas que agilizan el trabajo técnico diario.</p>
+                <a href="articulo-calculo-agil.html" style="color: #4da3ff; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px;">Leer artículo completo &rarr;</a>
+            </div>
 
         </div>
     </section>
 
-    <!-- Sección Sobre Mí dentro del Blog -->
-    <section id="sobre-mi" class="container" style="padding: 40px 20px;">
-        <h2>Sobre esta Bitácora</h2>
-        <p>En Nercovalch, he fusionado la precisión técnica de los cálculos estructurales y sanitarios con el desarrollo de soluciones web ágiles para facilitar el día a día de profesionales, profesores y estudiantes.</p>
+<!-- Sección Sobre Mí dentro del Blog -->
+<section id="sobre-mi" class="container" style="padding: 60px 20px; background: rgba(255,255,255,0.02); border-top: 1px solid rgba(255,255,255,0.05); border-bottom: 1px solid rgba(255,255,255,0.05); margin-top: 40px;">
+    <div style="max-width: 800px; margin: 0 auto;">
+        <span style="background: #4da3ff; color: #000; font-size: 0.75em; font-weight: bold; padding: 4px 8px; border-radius: 4px; text-transform: uppercase;">Trayectoria y Propósito</span>
+        <h2 style="margin-top: 15px; font-size: 2em; color: #333;">Transformando la Complejidad en Precisión y Agilidad</h2>
+        
+        <p style="font-size: 1.05em; line-height: 1.6; color: #333; opacity: 0.9; margin-top: 20px;">
+            ¡Hola! Soy <strong>Nerbelis Coromoto Valdeblanques de Romero</strong>, Ingeniera y desarrolladora detrás de este espacio en <strong>Nercovalch</strong>. A lo largo de mi trayectoria en la ingeniería civil y el desarrollo tecnológico, he comprobado que los cálculos manuales y los procesos repetitivos consumen un tiempo valioso que los profesionales deberíamos invertir en diseñar y crear.
+        </p>
+        
+        <p style="font-size: 1.05em; line-height: 1.6; color: #333; opacity: 0.9; margin-top: 15px;">
+            Por eso, mi misión principal es el desarrollo de <strong>herramientas de cálculo inteligentes y soluciones técnicas</strong> orientadas a ahorrar tiempo, minimizar errores y optimizar cada trabajo, tanto en la ingeniería civil como en cualquier ámbito profesional que apueste por la digitalización.
+        </p>
+
+        <p style="font-size: 1.05em; line-height: 1.6; color: #333; opacity: 0.9; margin-top: 15px;">
+            Este blog funciona como una bitácora viva donde comparto guías técnicas, el proceso detrás de transformar fórmulas complejas en software web ágil, y cómo la tecnología se convierte en el mejor aliado de la ingeniería moderna.
+        </p>
+    </div>
+</section>
+    <!-- Sección de Contacto y Redes Sociales -->
+    <section id="contacto" class="container" style="padding: 60px 20px; max-width: 800px; margin: 0 auto;">
+        <span style="background: #4da3ff; color: #000; font-size: 0.75em; font-weight: bold; padding: 4px 8px; border-radius: 4px; text-transform: uppercase;">Conectemos</span>
+        <h2 style="margin-top: 15px; font-size: 2em; color: #333;">Hablemos de tu Próximo Proyecto</h2>
+        <p style="font-size: 1.05em; opacity: 0.9; margin-top: 10px; margin-bottom: 30px;">
+            ¿Tienes un desafío técnico, una propuesta de automatización o quieres conocer más sobre nuestras herramientas de cálculo? Escríbeme o conéctate a través de mis redes oficiales.
+        </p>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px;">
+            <!-- Enlaces a Redes Sociales -->
+            <div style="background: rgba(255,255,255,0.03); padding: 25px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);">
+                <h3 style="font-size: 1.2em; color: #4da3ff; margin-bottom: 15px;">Canales Oficiales</h3>
+                <ul style="list-style: none; padding: 0; line-height: 2;">
+                    <li><a href="https://facebook.com/Nercovalch" target="_blank" style="color: #333; text-decoration: none;">Facebook</a></li>
+                    <li><a href="https://instagram.com/nercovalch" target="_blank" style="color: #333; text-decoration: none;">Instagram</a></li>
+                    <li><a href="https://youtube.com/@nercovalch" target="_blank" style="color: #333; text-decoration: none;">Youtube</a></li>
+                </ul>
+            </div>
+
+            <!-- Contacto Directo -->
+            <div style="background: rgba(255,255,255,0.03); padding: 25px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);">
+                <h3 style="font-size: 1.2em; color: #4da3ff; margin-bottom: 15px;">Contacto Directo</h3>
+                <p style="font-size: 0.95em; opacity: 0.8; margin-bottom: 15px;">También puedes comunicarte directamente mediante correo electrónico para consultas técnicas y alianzas.</p>
+                <a href="mailto:contacto@nercovalch.uk" style="display: inline-block; background: #4da3ff; color: #000; font-weight: bold; padding: 10px 20px; border-radius: 4px; text-decoration: none;">Enviar Correo</a>
+            </div>
+        </div>
     </section>
 
     <!-- Pie de Página -->
-    <footer style="text-align: center; padding: 20px; font-size: 0.8em; border-top: 1px solid rgba(255,255,255,0.1);">
+    <footer style="text-align: center; padding: 20px; font-size: 0.8em; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 40px;">
         <p>&copy; 2026 Nercovalch | Propiedad de Nerbelis Coromoto Valdeblanques de Romero</p>
         <p>Todos los derechos reservados. El contenido, código fuente y publicaciones son propiedad intelectual exclusiva.</p>
         <p style="margin-top: 10px;">
-        <a href="https://nercovalch.uk/politica_privacidad.html" target="_blank" style="color: inherit; text-decoration: underline;">Política de Privacidad</a>
+            <a href="https://nercovalch.uk/politica_privacidad.html" target="_blank" style="color: inherit; text-decoration: underline;">Política de Privacidad</a>
         </p>
     </footer>
 
-    <!-- Script del Menú Hamburguesa -->
-    <script type="text/javascript">
+    <!-- Script del Menú Desplegable -->
+    <script>
         const toggleButton = document.querySelector('.menu-toggle');
         const navMenu = document.querySelector('.nav-menu');
+        
         toggleButton.addEventListener('click', () => {
             if (navMenu.style.display === 'block') {
                 navMenu.style.display = 'none';
